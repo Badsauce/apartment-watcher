@@ -8,6 +8,7 @@ exports.handler = function(event, context, callback) {
       jQuery
     ) {
       if (error) {
+        console.log(error);
         callback(error);
       }
       callback(null, {
